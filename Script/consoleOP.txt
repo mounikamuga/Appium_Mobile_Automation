@@ -1,0 +1,100 @@
+[TestNG] Running:
+  C:\Users\venka\AppData\Local\Temp\testng-eclipse--1976075912\testng-customsuite.xml
+
+print
+print
+print
+This is drivernull
+Dec 01, 2016 9:13:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+Dec 01, 2016 9:14:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Testing Signin Feature
+PASSED: Signing-in Test
+Starting UI validation Test
+The page has the following elements
+1. Toolbar with following elements 
+	i. Burger Menu Icon 
+	ii. search bar and 
+	iii. Search Icon 
+2. Actionbar menu with following menu items
+	 i. Anywhere
+	 ii. PLUS 
+PASSED: UIvalidation test
+Starting Menu Items Validation test
+
+Following menu items are present
+
+0.Stores
+
+1.Deliveries
+
+2.Account Details
+
+3.Free Deliveries
+
+4.Enter Promo Code
+
+5.Help Center
+
+6.Become a Postmate
+
+7.Sign Out
+PASSED: Menu Items Validation test
+Starting Search Feature Testing
+Searched using valid String
+Stores were Displyaed
+Searched using empty String
+Searched using invalid String
+No Stores were Displyaed
+PASSED: Starting Search Feature Testing
+Starting Promo cide feature testing
+Promo is not valid.
+Promo is not valid.
+Promo is not valid.
+Promo is not valid.
+PASSED: Promo cide feature testing
+[Utils] Attempting to create E:\robotium\Appiumtest\test-output\Default suite\Default test.xml
+[Utils]   Directory E:\robotium\Appiumtest\test-output\Default suite exists: true
+PASSED: EmailPassword
+PASSED: appTesting
+
+===============================================
+    Default test
+    Tests run: 2, Failures: 0, Skips: 0
+===============================================
+
+
+===============================================
+Default suite
+Total tests run: 2, Failures: 0, Skips: 0
+===============================================
+
+[TestNG] Time taken by [FailedReporter passed=0 failed=0 skipped=0]: 0 ms
+[Utils] Attempting to create E:\robotium\Appiumtest\test-output\old\Default suite\toc.html
+[Utils]   Directory E:\robotium\Appiumtest\test-output\old\Default suite exists: true
+[Utils] Attempting to create E:\robotium\Appiumtest\test-output\old\Default suite\Default test.properties
+[Utils]   Directory E:\robotium\Appiumtest\test-output\old\Default suite exists: true
+[Utils] Attempting to create E:\robotium\Appiumtest\test-output\old\Default suite\index.html
+[Utils]   Directory E:\robotium\Appiumtest\test-output\old\Default suite exists: true
+[Utils] Attempting to create E:\robotium\Appiumtest\test-output\old\Default suite\main.html
+[Utils]   Directory E:\robotium\Appiumtest\test-output\old\Default suite exists: true
+[Utils] Attempting to create E:\robotium\Appiumtest\test-output\old\Default suite\groups.html
+[Utils]   Directory E:\robotium\Appiumtest\test-output\old\Default suite exists: true
+[Utils] Attempting to create E:\robotium\Appiumtest\test-output\old\Default suite\classes.html
+[Utils]   Directory E:\robotium\Appiumtest\test-output\old\Default suite exists: true
+[Utils] Attempting to create E:\robotium\Appiumtest\test-output\old\Default suite\reporter-output.html
+[Utils]   Directory E:\robotium\Appiumtest\test-output\old\Default suite exists: true
+[Utils] Attempting to create E:\robotium\Appiumtest\test-output\old\Default suite\methods-not-run.html
+[Utils]   Directory E:\robotium\Appiumtest\test-output\old\Default suite exists: true
+[Utils] Attempting to create E:\robotium\Appiumtest\test-output\old\Default suite\testng.xml.html
+[Utils]   Directory E:\robotium\Appiumtest\test-output\old\Default suite exists: true
+[Utils] Attempting to create E:\robotium\Appiumtest\test-output\old\index.html
+[Utils]   Directory E:\robotium\Appiumtest\test-output\old exists: true
+[TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@7a0ac6e3: 54 ms
+[TestNG] Time taken by org.testng.reporters.XMLReporter@7f690630: 10 ms
+[Utils] Attempting to create E:\robotium\Appiumtest\test-output\junitreports\TEST-com.appiumtest.PostmatesTest.xml
+[Utils]   Directory E:\robotium\Appiumtest\test-output\junitreports exists: true
+[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@6cd8737: 7 ms
+[TestNG] Time taken by org.testng.reporters.jq.Main@17f6480: 82 ms
+[TestNG] Time taken by org.testng.reporters.EmailableReporter2@6108b2d7: 8 ms
